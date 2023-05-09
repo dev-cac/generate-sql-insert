@@ -7,7 +7,7 @@ docker build -t py-inserts .
 
 - **Ejecute el contenedor**
 ```bash
-docker run -it --rm -v /ruta/a/docs:/app/docs py-inserts
+docker run -it --rm -v './docs':/app/docs py-inserts
 ```
 
-- Remplace /ruta/a/docs por la carpeta donde tendra la información
+- Remplace './docs' por la carpeta donde tendra la información

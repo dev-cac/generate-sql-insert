@@ -7,7 +7,7 @@ docker build -t py-inserts .
 
 - **Ejecute el contenedor**
 ```bash
-docker run -it --rm -v /ruta/a/input.xlsx:/app/input.xlsx py-inserts
+docker run -it --rm -v /ruta/a/docs:/app/docs py-inserts
 ```
 
-- Remplace /ruta/a/input.xlsx por la ruta donde se encuentra tu archivo Excel
+- Remplace /ruta/a/docs por la carpeta donde tendra la información
